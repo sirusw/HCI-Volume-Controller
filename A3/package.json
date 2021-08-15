@@ -1,0 +1,16 @@
+{
+  "name": "damaging-system-drum-muit5",
+  "productName": "damaging-system-drum-muit5",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "ourinsou",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "11.2.3"
+  }
+}

@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Static Icon Layout</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+
+  </head>
+  <body>
+    <img src= "#" id = "mouse"/>
+    <div id="trueWindow">
+      <p id="location"></p>
+      <div class="centered">
+        
+        <p id="compass">Click This Icon: 
+          <img id="indicator" width=50 height=50>
+        </p>
+      </div>
+      <p id="counter">&nbsp;</p>
+      <p id = "iconNum">&nbsp;</p>
+      <div id="buttonCast">
+        <input type="button" id="startBtn" value="Start">
+      </div>
+      <div class="ImageDrawer" id="iconDrawer">
+      <img class="icon" src="https://pbs.twimg.com/media/DjbhqBmUwAEOeIk.jpg" id="i0" width=50 height=50>
+      <img class="icon" id="i1" src="https://pbs.twimg.com/media/DjbgGS-VAAEtOCi.jpg" width=50 height=50/>
+      <img class="icon" id="i2" src="https://pbs.twimg.com/media/Djbhmb0U0AAHQ_j.jpg" width=50 height=50/>
+      <img class="icon" id="i3" src="https://pbs.twimg.com/media/DjbfM7PU4AAPjTH.jpg" width=50 height=50/>
+      <img class="icon" id="i4" src="https://pbs.twimg.com/media/Djbf0vTUwAAyNeA.jpg" width=50 height=50/>
+        <!--TODO: More Icons Here (number them in order, so i1..i4 -->
+      <span class="stretch"></span>
+      </div>
+    </div>
+    <p id="data"></p>
+  </body>
+    <script>
+      require('./renderer.js')
+    </script>
+</html>

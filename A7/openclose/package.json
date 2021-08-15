@@ -1,0 +1,16 @@
+{
+  "name": "openclose",
+  "productName": "openclose",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "ourinsou",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "11.2.3"
+  }
+}
